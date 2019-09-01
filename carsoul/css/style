@@ -1,0 +1,75 @@
+
+body{
+background-color: hsla(70, 33%, 25%, .75);
+}
+
+img{
+
+  display:block;
+  margin:0 auto;
+  border-radius= 30px;
+  border: 4px solid #ddd;
+  border-radius: 12px ;
+  padding: 7px;
+  width: 800px;
+  width: 800px;
+  border-left: 3px solid white;
+  border-right: 3px solid white-space;
+  margin-top: 60px;
+ 
+}
+
+.playPause{
+
+  cursor: pointer;
+  background-color:  gray;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 23px 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
