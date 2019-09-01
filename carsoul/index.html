@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carousel-slideshow</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<img class = "slide" name="slide" /img>
+<form name="form"></form>
+
+<div style="text-align:center">
+<!-- play pause button sympols -->
+<button class="playPause" onclick="play()">&#9658; /  &#10074;&#10074;</button> 
+<p><p>
+  <span class="dot" onclick="showImg(0)"></span>
+  <span class="dot" onclick="showImg(1)"></span>
+  <span class="dot" onclick="showImg(2)"></span>
+</div>
+<!-- prev button sympol -->
+<a class="prev" onclick="nextPrevImg(-1)">&#10094;</a> 
+<!-- next button sympol --> 
+<a class="next" onclick="nextPrevImg(1)">&#10095;</a> 
+<script src = "js.js"></script>
+</body>
+</html>
